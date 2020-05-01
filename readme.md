@@ -1,5 +1,6 @@
 ## Dependency for pom.xml
 
+```
 <dependency>
    <groupId>org.springframework.kafka</groupId>
    <artifactId>spring-kafka</artifactId>
@@ -9,9 +10,11 @@
    <artifactId>spring-kafka-test</artifactId>
    <scope>test</scope>
  </dependency>
+```
 
 ## properties for application-dev.yml
 
+```
 kafka:
     consumer:
       bootstrap-servers: localhost:9092
@@ -23,3 +26,4 @@ kafka:
       bootstrap-servers: localhost:9092
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
+```
