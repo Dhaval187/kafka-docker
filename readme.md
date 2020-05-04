@@ -12,7 +12,7 @@
  </dependency>
 ```
 
-## properties for application-dev.yml
+## Properties for application-dev.yml
 
 ```
 kafka:
@@ -26,4 +26,16 @@ kafka:
       bootstrap-servers: localhost:9092
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
+```
+
+## Run docker
+
+```
+docker-compose up -d
+```
+
+## Verify docker container
+
+```
+docker container ls
 ```
